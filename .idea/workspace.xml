@@ -65,7 +65,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1658426651550</updated>
-      <workItem from="1658426652890" duration="1930000" />
+      <workItem from="1658426652890" duration="2249000" />
     </task>
     <task id="LOCAL-00001" summary="From the book Head First Java&#10;For my private preactice.&#10;July 21, 2022. Done in Intellij IDEA 2022">
       <created>1658428392520</created>
@@ -95,7 +95,21 @@
       <option name="project" value="LOCAL" />
       <updated>1658428569868</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="From the book Head First Java&#10;For my private preactice.&#10;July 21, 2022. Done in Intellij IDEA 2022">
+      <created>1658428693710</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1658428693710</updated>
+    </task>
+    <task id="LOCAL-00006" summary="From the book Head First Java&#10;For my private preactice.&#10;July 21, 2022. Done in Intellij IDEA 2022">
+      <created>1658428821905</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1658428821905</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
