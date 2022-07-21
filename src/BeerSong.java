@@ -31,6 +31,5 @@ public class BeerSong {
                 } // End else
 
         } // End while loop
-
     }//End main method
 } // end class
