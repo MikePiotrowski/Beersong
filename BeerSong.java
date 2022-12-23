@@ -3,7 +3,7 @@ public class BeerSong {
 
 
         int beerNum = 99;
-        String word ="bottles";
+        String word = "bottles";
 
         while (beerNum > 0) {
             if (beerNum == 1) {
