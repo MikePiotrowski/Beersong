@@ -7,7 +7,7 @@ public class BeerSong {
 
         while (beerNum > 0) {
             if (beerNum == 1) {
-                word = "bottle"; // Singular as in one bottle
+                word = "bottles"; // Singular as in one bottle
             }
             System.out.println(beerNum + " " + word + " of beer on the wall");
             System.out.println(beerNum + " " + word + " of beer");
