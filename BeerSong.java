@@ -16,6 +16,7 @@ public class BeerSong {
                          + "Take one down, pass it around, ";
 
             if (numOfBeers > 1) {
+                bottlePluralization = (numOfBeers - 1 == 1) ? "bottle" : "bottles";
                 song += (numOfBeers - 1) + " " + bottlePluralization + " of beer on the wall.";
             } else {
                 song += "no more bottles of beer on the wall.";
@@ -28,4 +29,3 @@ public class BeerSong {
         }
     }
 }
-
