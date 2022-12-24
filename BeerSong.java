@@ -1,7 +1,7 @@
 // 12/23/2022 Rebuilt the original Code from the book Java Head First
 // Corrected a minor error from the book and made the code more optimal
 // Also tested out Code With Me in Intellij IDEA between my main computer
-// and my laptop. Added a little Lamdda in, but no real special reason.
+// and my laptop. Added a little Lambda in, but no real special reason.
 // Michael Lee Piotrowski
 
 
