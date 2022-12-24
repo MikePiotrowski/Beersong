@@ -1,5 +1,4 @@
 # Beersong
 Practice
-Taken from the book Head First Java.
-I'm still learning.
-I'll be adding some of my code from what I learned to this to make it a tad more interesting.
+Taken from the book Java Head DFrst. I made the code better IMO than the original which was geared towards beginners.
+There was a minor error in the original code.

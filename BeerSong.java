@@ -1,13 +1,15 @@
 // 12/23/2022 Rebuilt the original Code from the book Java Head First
 // Corrected a minor error from the book and made the code more optimal
 // Also tested out Code With Me in Intellij IDEA between my main computer
-// and my laptop.
+// and my laptop. Added a little Lamdda in, but no real special reason.
 // Michael Lee Piotrowski
 
 
+import java.util.function.IntConsumer;
+
 public class BeerSong {
     public static void main(String[] args) {
-        for (int numOfBeers = 99; numOfBeers > 0; numOfBeers--) {
+        IntConsumer printSong = numOfBeers -> {
             String bottlePluralization = (numOfBeers == 1) ? "bottle" : "bottles";
             String song = numOfBeers + " " + bottlePluralization + " of beer on the wall, "
                          + numOfBeers + " " + bottlePluralization + " of beer.\n"
@@ -19,6 +21,11 @@ public class BeerSong {
                 song += "no more bottles of beer on the wall.";
             }
             System.out.println(song);
+        };
+
+        for (int numOfBeers = 99; numOfBeers > 0; numOfBeers--) {
+            printSong.accept(numOfBeers);
         }
     }
 }
+
