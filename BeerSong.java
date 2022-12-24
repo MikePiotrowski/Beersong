@@ -1,3 +1,10 @@
+// 12/23/2022 Rebuilt the original Code from the book Java Head First
+// Corrected a minor error from the book and made the code more optimal
+// Also tested out Code With Me in Intellij IDEA between my main computer
+// and my laptop.
+// Michael Lee Piotrowski
+
+
 public class BeerSong {
     public static void main(String[] args) {
         for (int numOfBeers = 99; numOfBeers > 0; numOfBeers--) {
