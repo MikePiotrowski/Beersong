@@ -1,26 +1,17 @@
 public class BeerSong {
     public static void main(String[] args) {
+        for (int numOfBeers = 99; numOfBeers > 0; numOfBeers--) {
+            String bottlePluralization = (numOfBeers == 1) ? "bottle" : "bottles";
+            String song = numOfBeers + " " + bottlePluralization + " of beer on the wall, "
+                         + numOfBeers + " " + bottlePluralization + " of beer.\n"
+                         + "Take one down, pass it around, ";
 
-
-        int beerNum = 99;
-        String word = "bottles";
-
-        while (beerNum > 0) {
-            if (beerNum == 1) {
-                word = "bottle"; // Singular as in one bottle
-            }
-            System.out.println(beerNum + " " + word + " of beer on the wall");
-            System.out.println(beerNum + " " + word + " of beer");
-            System.out.println("Take one down.");
-            System.out.println("Pass it around.");
-            beerNum = beerNum - 1;
-
-            if (beerNum > 0) {
-                System.out.println(beerNum + " " + word + " of beer on the wall");
-
+            if (numOfBeers > 1) {
+                song += (numOfBeers - 1) + " " + bottlePluralization + " of beer on the wall.";
             } else {
-                System.out.println("No more bottles of beer on the wall");
-            } // End else
-        } // End while loop
-    } // End main method
-} // End class
+                song += "no more bottles of beer on the wall.";
+            }
+            System.out.println(song);
+        }
+    }
+}
