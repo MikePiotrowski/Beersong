@@ -24,6 +24,7 @@ public class BeerSong {
 
         for (int numOfBeers = 99; numOfBeers > 0; numOfBeers--) {
             printSong.accept(numOfBeers);
+            Thread.sleep(4000) // Added a four second pause between the number of bottled beers.
         }
     }
 }
