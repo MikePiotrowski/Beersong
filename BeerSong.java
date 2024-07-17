@@ -1,6 +1,6 @@
 // 12/23/2022 Corrected a minor error from the book and made the code more optimal
 // Also tested out "Code With Me" in Intellij IDEA between my main computer
-// and my laptop. Added a little Lambda in, but no real special reason.
+// and my laptop. Added a little Lambda in, but for no real special reason.
 // Update July 16, 2024, I updated this to Java 18.
 // Michael Lee Piotrowski
 
